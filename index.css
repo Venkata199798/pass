@@ -6,9 +6,9 @@
 body,html{
     height: 100%;
 }
-main{
+/* main{
     overflow: hidden;
-}
+} */
 .border_color{
     border-color: red;
 }
@@ -187,8 +187,8 @@ input{
 .love_mood{
     font-family: 'Open Sans', sans-serif;
     height: 168px;
-    width: 292px;
-    font-size: 26px;
+    max-width: 292px;
+    font-size: 32px;
     font-weight: 300;
     color: #000000;
 }
@@ -200,6 +200,7 @@ input{
 .conta{
     padding-top: 55px;
     background-color: #F7F5F2;
+    padding-bottom: 100px;
 }
 
 .name_u{
@@ -208,7 +209,7 @@ input{
     width: 179px;
     color: #000000;
     border-bottom: 1px solid #707070;
-    padding-top: 8px;
+    padding-top: 5px;
 }
 .natu_head{
     font-family: 'Open Sans', sans-serif;
@@ -224,6 +225,10 @@ input{
     height: 562px;
     width: 704px;
 
+}
+.cad_img{
+    height: 390px;
+    width: 675px;
 }
 
 .natu_head_1{
@@ -346,6 +351,7 @@ input{
 }
 .button_1{
     padding: 15px;
+    border-radius: 5px;
 }
 .flex_cont{
     display: flex;
@@ -481,8 +487,8 @@ input{
         font-family: 'Open Sans', sans-serif;
         height: 100px;
         width: 302px;
-        font-size: 22px;
-        font-weight: 400;
+        font-size: 24px;
+        font-weight: 300;
         color: #000000;
     }
     .img_s{
@@ -541,5 +547,19 @@ input{
     
 }
 
+@media (min-width:2560px){
+    .flex_1{
+        display: flex;
+        justify-content: flex-end;
+    }
+ .container_1{
+        width: 600px;
+        padding: 20px;
+        /* margin-top: 50%;
+        margin-left: 0%; */
+        margin-bottom: 10%;
+        margin-right: 10%;
+    } 
+}
 
 
